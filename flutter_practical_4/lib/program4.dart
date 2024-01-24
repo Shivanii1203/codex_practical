@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 class Demo extends StatelessWidget {
@@ -7,34 +8,35 @@ class Demo extends StatelessWidget {
         title: Text("My First App"),
       ),
       body: SizedBox( 
-             
-        child: Row(
-           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+
+        child: Column(
            
           children: [ 
-            
-            Column(
+             
+            Row(
+               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+           
               children: [
-                   SizedBox(height: 50),
+                   SizedBox( height: 350),
               
                 Container(
-                  height: 170,
-                  width: 170,
+                  height: 200,
+                  width: 250,
                   color: Color.fromARGB(255, 238, 134, 169),
                 ),
 
-                 SizedBox(height: 50),
+                
                 Container(
-                  height: 170,
-                  width: 170,
+                  height: 200,
+                  width: 250,
                   color: Color.fromARGB(255, 241, 64, 123)
                   ,
                 ),
 
-                 SizedBox(height: 50),
+                
                 Container(
-                  height: 170,
-                  width: 170,
+                  height: 200,
+                  width: 250,
                   color: Color.fromARGB(255, 247, 3, 85)
                   
                 ),
@@ -44,27 +46,28 @@ class Demo extends StatelessWidget {
               
             ),
             
-            Column(
+            Row(
+               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                SizedBox(height:50),
+                SizedBox(height:250),
                 Container(
-                  height: 170,
-                  width: 170,
+                  height: 200,
+                  width: 250,
                   color: Color.fromARGB(255, 134, 191, 238),
                 ),
 
-                 SizedBox(height: 50),
+                
                 Container(
-                  height: 170,
-                  width: 170,
+                  height: 200,
+                  width: 250,
                   color: Color.fromARGB(255, 64, 126, 241)
                   ,
                 ),
 
-                 SizedBox(height: 50),
+                
                 Container(
-                  height: 170,
-                  width: 170,
+                  height: 200,
+                  width: 250,
                   color: Color.fromARGB(255, 3, 117, 247)
                   
                 ),
