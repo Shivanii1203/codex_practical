@@ -7,19 +7,26 @@ class Demo extends StatelessWidget {
       appBar: AppBar(
         title: Text("My First App"),
       ),
-      body: SizedBox( 
-
-        child: Column(
-           
-          children: [ 
+       
+     
              
+        body: Column(
+               children:[
+                Row(
+                  children:[
+                    SizedBox(width:320,
+                    height: 70),
+                    Text("First row")
+                  ]
+                ),
             Row(
+               
                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-           
               children: [
-                   SizedBox( height: 350),
-              
+                   SizedBox( height: 250),
+                  
                 Container(
+                  
                   height: 200,
                   width: 250,
                   color: Color.fromARGB(255, 238, 134, 169),
@@ -43,9 +50,15 @@ class Demo extends StatelessWidget {
                
                   
               ],
-              
+          
             ),
-            
+              Row(
+                  children:[
+                    SizedBox(width:320,
+                    height: 50),
+                    Text("Second row"),
+                  ],
+                ),
             Row(
                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
@@ -73,16 +86,17 @@ class Demo extends StatelessWidget {
                 ),
                
               ],
+          
             ),
               ],
               ),
               
-            ),
+            );
           
           
         
       
-    );
+    
 
   }
 
