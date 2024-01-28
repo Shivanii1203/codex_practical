@@ -1,0 +1,263 @@
+import 'package:flutter/material.dart';
+
+class Demo extends StatelessWidget{
+     Widget build(BuildContext context){
+        return Scaffold(
+          appBar: AppBar(
+            title: Text("Codex", style:TextStyle(color:Colors.black)),
+            actions: [
+       
+               IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.search,color:Colors.black),tooltip: "search", color: Colors.blue,),
+               
+            ],
+          ),
+
+          body: SizedBox(
+            child:Column(
+                children:[
+                  SizedBox(
+                    width: double.infinity,
+                   height: double.infinity,
+                  ),
+            
+            SizedBox(
+
+               child: SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                
+                 ),
+                 ),SizedBox(
+                  child: SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                  ),
+                 ),
+              ],
+            ),
+            ),
+            
+            Row(
+                 
+                  
+                  
+                     children:[
+                    SizedBox(width:320,
+                    height: 70),
+                    Text("Languages")
+                  ]
+                  ),
+                
+               Row(
+                
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  SizedBox(width: 50,
+                   height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+
+                   SizedBox(width: 50,
+                    height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+
+                    SizedBox(width: 50,
+                     height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+
+                   SizedBox(width: 50,
+                    height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+                    ],       
+              ),
+
+
+              Row(
+                     children:[
+                    SizedBox(width:320,
+                    height: 70),
+                    Text("Languages")
+                  ]
+                  ),
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  SizedBox(width: 50,
+                   height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+
+                   SizedBox(width: 50,
+                    height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+
+                    SizedBox(width: 50,
+                     height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+
+                   SizedBox(width: 50,
+                    height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+                    ],      
+              ),
+
+
+              Row(
+                     children:[
+                    SizedBox(width:320,
+                    height: 70),
+                    Text("Languages")
+                  ]
+                  ),
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  SizedBox(width: 50,
+                   height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+
+                   SizedBox(width: 50,
+                    height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+
+                    SizedBox(width: 50,
+                     height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+
+                   SizedBox(width: 50,
+                   height: 50,),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+                    ],      
+              ),
+
+
+              Row(
+                     children:[
+                    SizedBox(width:320,
+                    height: 70),
+                    Text("Languages")
+                  ]
+                  ),
+
+                 Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  SizedBox(width: 50,
+                   height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+
+                   SizedBox(width: 50,
+                    height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+
+                    SizedBox(width: 50,
+                     height: 50),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+
+                   SizedBox(width: 50,
+                   height: 50,),
+                  Container(
+                     child:Image.network("https://t3.ftcdn.net/jpg/03/16/93/92/360_F_316939246_zwjJ0QLwUcXvcFanwiztc1F0bTo1JCf9.jpg",
+                   fit:BoxFit.cover
+                   ),
+                    height: 250,
+                    width: 400,
+                  ),
+                    ],       
+                ),
+               ); 
+     }
+
+}

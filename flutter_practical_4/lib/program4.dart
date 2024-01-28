@@ -12,6 +12,7 @@ class Demo extends StatelessWidget {
              
         body: Column(
                children:[
+
                 Row(
                   children:[
                     SizedBox(width:320,
@@ -19,6 +20,7 @@ class Demo extends StatelessWidget {
                     Text("First row")
                   ]
                 ),
+
             Row(
                
                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -46,12 +48,11 @@ class Demo extends StatelessWidget {
                   width: 250,
                   color: Color.fromARGB(255, 247, 3, 85)
                   
-                ),
-               
-                  
+                ),   
               ],
-          
             ),
+
+
               Row(
                   children:[
                     SizedBox(width:320,
@@ -59,6 +60,7 @@ class Demo extends StatelessWidget {
                     Text("Second row"),
                   ],
                 ),
+                
             Row(
                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
