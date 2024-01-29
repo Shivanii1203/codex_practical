@@ -63,7 +63,7 @@ class Demo extends StatelessWidget {
                      IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.comment,color:Colors.black),tooltip: "like", color: Colors.blue,),
                       IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:Colors.black),tooltip: "like", color: Colors.blue,),
                       Container(
-                        width: 300,
+                        
                         
                       ),
                     ]
@@ -83,7 +83,7 @@ class Demo extends StatelessWidget {
                      IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.comment,color:Colors.black),tooltip: "like", color: Colors.blue,),
                       IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:Colors.black),tooltip: "like", color: Colors.blue,),
                       Container(
-                        width: 300,
+                        
                         
                       ),
                     ]
@@ -103,7 +103,7 @@ class Demo extends StatelessWidget {
                      IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.comment,color:Colors.black),tooltip: "like", color: Colors.blue,),
                       IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:Colors.black),tooltip: "like", color: Colors.blue,),
                       Container(
-                        width: 300,
+                        
                         
                       ),
                     ]
@@ -123,7 +123,7 @@ class Demo extends StatelessWidget {
                      IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.comment,color:Colors.black),tooltip: "like", color: Colors.blue,),
                       IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:Colors.black),tooltip: "like", color: Colors.blue,),
                       Container(
-                        width: 300,
+                        
                         
                       ),
                     ]

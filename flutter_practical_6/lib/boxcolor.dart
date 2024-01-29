@@ -24,7 +24,7 @@ class _DemoState extends State<Demo> {
               Container(
                 height: 200,
                 width: 200,
-                color: boxColor ? Color.fromARGB(255, 241, 6, 100) :  Color.fromARGB(255, 9, 242, 226)
+                color: boxColor ? Color.fromARGB(255, 222, 47, 117) :  Color.fromARGB(255, 9, 242, 226)
                 ),
               
 
