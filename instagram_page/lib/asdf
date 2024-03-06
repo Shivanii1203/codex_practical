@@ -1,0 +1,588 @@
+import 'package:flutter/material.dart';
+
+class Demo extends StatelessWidget {
+  const Demo({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+       appBar: AppBar(
+        title: Text("Instagram", style: TextStyle(color: Colors.black)),
+        actions: [
+         IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.favorite,color:Colors.black),tooltip: "like", color: Colors.blue,),
+               IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.message,color:Colors.black),tooltip: "messgae", color: Colors.blue,),
+        ],
+      ),
+
+
+      body: SizedBox(
+
+        child: Container(
+          
+            // width: double.infinity,
+            // height: double.infinity,
+
+            child: SingleChildScrollView(
+              scrollDirection: Axis.vertical,
+
+
+              child: Column(
+                // crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Container(
+                    child: Image.network("https://images.pexels.com/photos/19861151/pexels-photo-19861151/free-photo-of-a-mountain-stream-is-flowing-through-a-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    fit: BoxFit.cover,),
+                    height: 400,
+                    width: 400,
+                    color: Colors.amber,
+                    
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children:[
+                       IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.favorite,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                     IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.comment,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                      IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                      Container(
+                        width: 300,
+                        
+                      ),
+                    ]
+                      ),
+                       Container(
+                    child: Image.network("https://images.pexels.com/photos/19861151/pexels-photo-19861151/free-photo-of-a-mountain-stream-is-flowing-through-a-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    fit: BoxFit.cover,),
+                    height: 400,
+                    width: 400,
+                    color: Colors.amber,
+                    
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children:[
+                       IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.favorite,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                     IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.comment,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                      IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                      Container(
+                        
+                        
+                      ),
+                    ]
+                      ),
+                     Container(
+                    child: Image.network("https://images.pexels.com/photos/19861151/pexels-photo-19861151/free-photo-of-a-mountain-stream-is-flowing-through-a-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    fit: BoxFit.cover,),
+                    height: 400,
+                    width: 400,
+                    color: Colors.amber,
+                    
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children:[
+                       IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.favorite,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                     IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.comment,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                      IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                      Container(
+                        
+                        
+                      ),
+                    ]
+                      ),
+                       Container(
+                    child: Image.network("https://images.pexels.com/photos/19861151/pexels-photo-19861151/free-photo-of-a-mountain-stream-is-flowing-through-a-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    fit: BoxFit.cover,),
+                    height: 400,
+                    width: 400,
+                    color: Colors.amber,
+                    
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children:[
+                       IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.favorite,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                     IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.comment,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                      IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                      Container(
+                        
+                        
+                      ),
+                    ]
+                      ),
+                     Container(
+                    child: Image.network("https://images.pexels.com/photos/19861151/pexels-photo-19861151/free-photo-of-a-mountain-stream-is-flowing-through-a-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+                    fit: BoxFit.cover,),
+                    height: 400,
+                    width: 400,
+                    color: Colors.amber,
+                    
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children:[
+                       IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.favorite,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                     IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.comment,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                      IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:Colors.black),tooltip: "like", color: Colors.blue,),
+                      Container(
+                        
+                        
+                      ),
+                    ]
+                      ),
+                      
+                ],
+              ),
+              
+            ),
+        ),
+      ),
+    );
+  }
+}
+
+  // Row(
+//   children: [
+//     Column(
+//       children: [
+//         Container(
+//           margin: EdgeInsets.only(top: 50, left: 50),
+//           child: SingleChildScrollView(
+//             scrollDirection: Axis.vertical,
+//             child: Container(
+//               // Add styling or decoration as needed
+//               child: Text(
+//                 "Shivani Lokhande",
+//                 style: TextStyle(color: Colors.white),
+//               ),
+//             ),
+//           ),
+//         ),
+//         Container(
+//           margin: EdgeInsets.only(top: 50, left: 50),
+//           child: Image.network(
+//             "https://images.pexels.com/photos/19861151/pexels-photo-19861151/free-photo-of-a-mountain-stream-is-flowing-through-a-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+//             fit: BoxFit.cover,
+//             height: 400,
+//             width: 400,
+//           ),
+//         ),
+//         Row(
+//           mainAxisAlignment: MainAxisAlignment.center,
+//           children: [
+//             IconButton(
+//               onPressed: () {
+//                 print("click on add");
+//               },
+//               icon: Icon(Icons.favorite, color: const Color.fromARGB(255, 248, 246, 246)),
+//               tooltip: "like",
+//               color: Colors.blue,
+//             ),
+//             IconButton(
+//               onPressed: () {
+//                 print("click on add");
+//               },
+//               icon: Icon(Icons.comment, color: const Color.fromARGB(255, 250, 248, 248)),
+//               tooltip: "like",
+//               color: Colors.blue,
+//             ),
+//             IconButton(
+//               onPressed: () {
+//                 print("click on add");
+//               },
+//               icon: Icon(Icons.share, color: const Color.fromARGB(255, 234, 231, 231)),
+//               tooltip: "like",
+//               color: Colors.blue,
+//             ),
+//             Container(
+//               width: 300,
+//             ),
+//           ],
+//         ),
+//       ],
+//     ),
+//   ],
+// ),
+
+        // Row(
+           
+        //   children: [
+
+        //     Column(
+              
+        //       children: [
+        //         Container(
+        //              child:SingleChildScrollView(
+        //               scrollDirection:Axis.vertical,
+                     
+        //           margin:EdgeInsets.only(top: 50 , left: 50, right: 2500),
+        //             Text ("Shivani Lokhande",style:TextStyle(color: Colors.white),)
+        //         ),
+
+        //         Container(
+        //             margin:EdgeInsets.only(top: 50 , left: 50, right: 2200),
+        //             child: Image.network("https://images.pexels.com/photos/19861151/pexels-photo-19861151/free-photo-of-a-mountain-stream-is-flowing-through-a-forest.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        //             fit: BoxFit.cover,),
+        //             height: 400,
+        //             width: 400,
+        //             color: Colors.amber,
+                    
+        //           ),
+        //           Row(
+        //             mainAxisAlignment: MainAxisAlignment.center,
+        //             children:[
+        //                IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.favorite,color:const Color.fromARGB(255, 248, 246, 246)),tooltip: "like", color: Colors.blue,),
+        //              IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.comment,color:const Color.fromARGB(255, 250, 248, 248)),tooltip: "like", color: Colors.blue,),
+        //               IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.share,color:const Color.fromARGB(255, 234, 231, 231)),tooltip: "like", color: Colors.blue,),
+        //               Container(
+        //                 width: 300,
+                        
+        //               ),
+        //             ]
+        //           ),
+        //               ),
+        //       ],
+        //     )
+        //   ],
+        // ),
+
+
+        import 'package:flutter/material.dart';
+
+class Demo extends StatelessWidget {
+  const Demo({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+       appBar: AppBar(
+        title: Text("Instagram", style: TextStyle(color: Colors.black)),
+        actions: [
+         IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.favorite,color:Colors.black),tooltip: "like", color: Colors.blue,),
+               IconButton(onPressed: (){print("click on add");},icon: Icon(Icons.message,color:Colors.black),tooltip: "messgae", color: Colors.blue,),
+        ],
+      ),
+
+
+      body: Center(
+       
+         child :Container(
+        height: double.infinity,
+        width: double.infinity,
+        color: Colors.black,
+        child: SingleChildScrollView(
+          scrollDirection:Axis.horizontal,
+          
+        child: Column( 
+          children: [
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+              
+            Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19923206/pexels-photo-19923206/free-photo-of-a-woman-in-white-shirt-and-jeans-standing-in-a-garden.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19601923/pexels-photo-19601923/free-photo-of-young-woman-wearing-an-ao-dai-dress-and-holding-a-fan.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19577242/pexels-photo-19577242/free-photo-of-young-woman-in-a-dress-holding-a-vintage-telephone.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/10234471/pexels-photo-10234471.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19686451/pexels-photo-19686451/free-photo-of-a-woman-in-white-standing-in-the-desert.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+            
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19601923/pexels-photo-19601923/free-photo-of-young-woman-wearing-an-ao-dai-dress-and-holding-a-fan.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19577242/pexels-photo-19577242/free-photo-of-young-woman-in-a-dress-holding-a-vintage-telephone.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/10234471/pexels-photo-10234471.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19686451/pexels-photo-19686451/free-photo-of-a-woman-in-white-standing-in-the-desert.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19601923/pexels-photo-19601923/free-photo-of-young-woman-wearing-an-ao-dai-dress-and-holding-a-fan.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19577242/pexels-photo-19577242/free-photo-of-young-woman-in-a-dress-holding-a-vintage-telephone.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/10234471/pexels-photo-10234471.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19686451/pexels-photo-19686451/free-photo-of-a-woman-in-white-standing-in-the-desert.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19601923/pexels-photo-19601923/free-photo-of-young-woman-wearing-an-ao-dai-dress-and-holding-a-fan.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19577242/pexels-photo-19577242/free-photo-of-young-woman-in-a-dress-holding-a-vintage-telephone.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/10234471/pexels-photo-10234471.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19686451/pexels-photo-19686451/free-photo-of-a-woman-in-white-standing-in-the-desert.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+
+             Container(
+                   height: 80,
+                   width: 80,
+        margin: EdgeInsets.only(left: 20, top: 20),
+            decoration: BoxDecoration(
+              border:Border.all(color: Color.fromARGB(255, 247, 245, 245), width: 2, style: BorderStyle.solid),
+              borderRadius: BorderRadius.circular(220),
+              image: DecorationImage(image: NetworkImage("https://images.pexels.com/photos/19601923/pexels-photo-19601923/free-photo-of-young-woman-wearing-an-ao-dai-dress-and-holding-a-fan.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load")),     
+            ),     
+            ),
+
+          ],
+        ),
+
+        
+        Row(
+          // mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          children: [
+             Container(
+              width: 100,  
+              margin: EdgeInsets.only(left: 40),
+              child: Text("Your Story",style: TextStyle(color: Colors.white,),),
+            ),
+
+             Container(
+                width: 100,          
+              child: Text("Chaitali_29",style: TextStyle(color: Colors.white,),),
+              
+            ),
+
+             Container(
+                 width: 100,         
+              child: Text("Aakii___29",style: TextStyle(color: Colors.white,),),
+            ),
+             Container(
+                  width: 100,       
+              child: Text("25_patu_25",style: TextStyle(color: Colors.white,),),
+            ),
+             Container(
+                   width: 100,       
+              child: Text("vaibhavi_16",style: TextStyle(color: Colors.white,),),
+            ),
+            Container(
+                width: 100,          
+              child: Text("Chaitali_29",style: TextStyle(color: Colors.white,),),
+            ),
+
+             Container(
+                 width: 100,         
+              child: Text("Aakii___29",style: TextStyle(color: Colors.white,),),
+            ),
+             Container(
+                  width: 100,       
+              child: Text("25_patu_25",style: TextStyle(color: Colors.white,),),
+            ),
+             Container(
+                   width: 100,       
+              child: Text("vaibhavi_16",style: TextStyle(color: Colors.white,),),
+            ),
+           Container(
+                width: 100,          
+              child: Text("Chaitali_29",style: TextStyle(color: Colors.white,),),
+            ),
+
+             Container(
+                 width: 100,         
+              child: Text("Aakii___29",style: TextStyle(color: Colors.white,),),
+            ),
+             Container(
+                  width: 100,       
+              child: Text("25_patu_25",style: TextStyle(color: Colors.white,),),
+            ),
+             Container(
+                   width: 100,       
+              child: Text("vaibhavi_16",style: TextStyle(color: Colors.white,),),
+            ),
+           Container(
+                width: 100,          
+              child: Text("Chaitali_29",style: TextStyle(color: Colors.white,),),
+            ),
+
+             Container(
+                 width: 100,         
+              child: Text("Aakii___29",style: TextStyle(color: Colors.white,),),
+            ),
+             Container(
+                  width: 100,       
+              child: Text("25_patu_25",style: TextStyle(color: Colors.white,),),
+            ),
+             Container(
+                   width: 100,       
+              child: Text("vaibhavi_16",style: TextStyle(color: Colors.white,),),
+            ),
+           Container(
+                width: 100,          
+              child: Text("Chaitali_29",style: TextStyle(color: Colors.white,),),
+            ),
+          ],
+        ),
+          ],
+
+        ), 
+
+       
+      ),
+
+      
+       
+      ),
+      
+       
+      ),
+
+    );
+  }
+}
